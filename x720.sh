@@ -115,7 +115,7 @@ while True:
 
  print "Battery:%5i%%" % readCapacity(bus)
 
- if readCapacity(bus) == 100:
+ if readCapacity(bus) >= 100:
 
          print "Battery FULL"
 
